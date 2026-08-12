@@ -1492,10 +1492,34 @@
 		(uuid "22c54f88-1c8a-4c9f-8eea-d0ee479a1703")
 	)
 	(junction
+		(at 125.73 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ca8dc76-14ab-4b55-a091-5777af89c5cd")
+	)
+	(junction
 		(at 137.16 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3af7c174-a2c4-49a5-8b56-5e73778f1cfc")
+	)
+	(junction
+		(at 137.16 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41683add-86d8-4f33-8579-902aa848d548")
+	)
+	(junction
+		(at 137.16 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41da0676-efa4-45ce-b5c5-0783c8386107")
+	)
+	(junction
+		(at 137.16 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ffbd252-e548-4373-ba96-c6f65595dddc")
 	)
 	(junction
 		(at 137.16 35.56)
@@ -1527,6 +1551,36 @@
 		(color 0 0 0 0)
 		(uuid "b3a2ccbb-4c81-4ff1-94ca-a9db254701b7")
 	)
+	(junction
+		(at 125.73 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1c5afb3-56f2-472d-a444-95a7249d83a5")
+	)
+	(junction
+		(at 137.16 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8ea8b0c-621e-4eb9-9316-3f8fe4f657ec")
+	)
+	(junction
+		(at 137.16 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e44f226c-0ad9-4fe4-85f0-ce806058c133")
+	)
+	(junction
+		(at 137.16 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eafa46c2-bedc-4fd0-a3fb-4d8366468547")
+	)
+	(junction
+		(at 137.16 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8411a5a-fc2a-49b1-9c07-49008bd317a1")
+	)
 	(wire
 		(pts
 			(xy 133.35 86.36) (xy 137.16 86.36)
@@ -1539,6 +1593,46 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 144.78) (xy 137.16 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0885fca1-dd86-43e7-8876-ef5c148c91b4")
+	)
+	(wire
+		(pts
+			(xy 137.16 130.81) (xy 137.16 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e65aea2-ff56-41f2-a56d-884d57ad98ef")
+	)
+	(wire
+		(pts
+			(xy 125.73 125.73) (xy 125.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f2c1a0-30a0-4d5b-8938-0f83c10fcd66")
+	)
+	(wire
+		(pts
+			(xy 137.16 137.16) (xy 137.16 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ad3536-33a0-478a-9c9b-81e8d3f9d7de")
+	)
+	(wire
+		(pts
 			(xy 104.14 59.69) (xy 137.16 59.69)
 		)
 		(stroke
@@ -1546,6 +1640,36 @@
 			(type default)
 		)
 		(uuid "2a34a370-21da-4191-b0d3-334ca8a9853a")
+	)
+	(wire
+		(pts
+			(xy 125.73 160.02) (xy 129.54 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa74410-65e7-405f-a953-3f164dcd65c1")
+	)
+	(wire
+		(pts
+			(xy 96.52 119.38) (xy 96.52 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0cbcbe-dce3-41fe-8d08-a6b2ae83c249")
+	)
+	(wire
+		(pts
+			(xy 144.78 121.92) (xy 144.78 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d93d0e1-43c1-4d25-86de-e71b53866976")
 	)
 	(wire
 		(pts
@@ -1589,6 +1713,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 137.16) (xy 116.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338f4e2a-1d58-4dbb-8b04-8093d766deee")
+	)
+	(wire
+		(pts
 			(xy 125.73 40.64) (xy 125.73 52.07)
 		)
 		(stroke
@@ -1606,6 +1740,26 @@
 			(type default)
 		)
 		(uuid "3709d008-0f64-4b4b-abc0-fa7171a959b0")
+	)
+	(wire
+		(pts
+			(xy 137.16 113.03) (xy 137.16 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f87dee-6fa5-437a-8b77-72d90ed37eca")
+	)
+	(wire
+		(pts
+			(xy 144.78 120.65) (xy 137.16 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4ef9e7-d6e6-4486-9087-fd069100c388")
 	)
 	(wire
 		(pts
@@ -1629,6 +1783,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 137.16) (xy 137.16 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40af31a7-94cc-486b-a470-690ae4998ef2")
+	)
+	(wire
+		(pts
+			(xy 137.16 171.45) (xy 137.16 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2d3f55-fef2-4a5b-9875-43c993809a73")
+	)
+	(wire
+		(pts
 			(xy 125.73 74.93) (xy 129.54 74.93)
 		)
 		(stroke
@@ -1646,6 +1820,26 @@
 			(type default)
 		)
 		(uuid "50beb601-d4d2-41a0-8208-2fa561b43415")
+	)
+	(wire
+		(pts
+			(xy 116.84 149.86) (xy 116.84 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533cff9b-8013-4dd5-9690-38f050d4e244")
+	)
+	(wire
+		(pts
+			(xy 125.73 160.02) (xy 125.73 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566ab6da-eaea-4acd-9353-986c54e2d5fa")
 	)
 	(wire
 		(pts
@@ -1669,6 +1863,26 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 165.1) (xy 137.16 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed45710-45d1-474e-b8a3-a67954a5e083")
+	)
+	(wire
+		(pts
+			(xy 125.73 125.73) (xy 129.54 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68af8b61-7f73-48eb-9e4a-82a4d6396f0d")
+	)
+	(wire
+		(pts
 			(xy 137.16 27.94) (xy 137.16 35.56)
 		)
 		(stroke
@@ -1676,6 +1890,26 @@
 			(type default)
 		)
 		(uuid "69c9013b-e8ea-4eb0-ac3d-e42be7501915")
+	)
+	(wire
+		(pts
+			(xy 144.78 130.81) (xy 144.78 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff325d6-9e31-49f6-8b87-2cd836ec070e")
+	)
+	(wire
+		(pts
+			(xy 73.66 142.24) (xy 88.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ce382d-a955-4b80-b1e7-b53412f80414")
 	)
 	(wire
 		(pts
@@ -1719,6 +1953,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 154.94) (xy 144.78 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8052e2cc-e941-4442-9419-318b85528e20")
+	)
+	(wire
+		(pts
 			(xy 144.78 69.85) (xy 137.16 69.85)
 		)
 		(stroke
@@ -1739,6 +1983,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 149.86) (xy 116.84 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ac7626-4977-46d2-af0d-0bac9aa0c93d")
+	)
+	(wire
+		(pts
 			(xy 137.16 86.36) (xy 137.16 92.71)
 		)
 		(stroke
@@ -1756,6 +2010,16 @@
 			(type default)
 		)
 		(uuid "a31a1e4e-48f1-4627-8260-41a6f0489bcc")
+	)
+	(wire
+		(pts
+			(xy 137.16 165.1) (xy 137.16 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b7fa9a-1617-4334-9158-4b8c02007384")
 	)
 	(wire
 		(pts
@@ -1789,6 +2053,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 137.16) (xy 116.84 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc712d12-2e7b-439d-b2b8-d9484ca01fdf")
+	)
+	(wire
+		(pts
+			(xy 144.78 130.81) (xy 137.16 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be23c155-cffb-4c4b-8385-fb443bd57954")
+	)
+	(wire
+		(pts
 			(xy 144.78 80.01) (xy 137.16 80.01)
 		)
 		(stroke
@@ -1809,6 +2093,26 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 165.1) (xy 144.78 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca80b377-d8ef-462f-b295-3fab7eec116f")
+	)
+	(wire
+		(pts
+			(xy 124.46 160.02) (xy 125.73 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d222808d-3055-47a1-a61b-3090875c7ded")
+	)
+	(wire
+		(pts
 			(xy 73.66 59.69) (xy 88.9 59.69)
 		)
 		(stroke
@@ -1816,6 +2120,26 @@
 			(type default)
 		)
 		(uuid "d490c455-3f76-4b40-9785-3dd2ea42bc2e")
+	)
+	(wire
+		(pts
+			(xy 88.9 147.32) (xy 73.66 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d529fa64-ebf7-4b66-9f16-b16985487c54")
+	)
+	(wire
+		(pts
+			(xy 73.66 144.78) (xy 88.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97a6d21-5ea3-4fb1-8018-514d7de962ba")
 	)
 	(wire
 		(pts
@@ -1829,6 +2153,46 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 144.78) (xy 137.16 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3d6bdb-00f2-468c-830a-aecc255deb63")
+	)
+	(wire
+		(pts
+			(xy 124.46 125.73) (xy 125.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edeab032-fb59-416a-92f3-936f03a41ddc")
+	)
+	(wire
+		(pts
+			(xy 133.35 171.45) (xy 137.16 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99d4a69-a563-4af0-86e6-fdb5d17f0da8")
+	)
+	(wire
+		(pts
+			(xy 144.78 154.94) (xy 137.16 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9fb7964-6654-4f85-8a82-d557dcae0fac")
+	)
+	(wire
+		(pts
 			(xy 137.16 59.69) (xy 137.16 69.85)
 		)
 		(stroke
@@ -1836,6 +2200,16 @@
 			(type default)
 		)
 		(uuid "fd4b7926-1341-4e74-bd96-28fec4a615d1")
+	)
+	(label "SD"
+		(at 73.66 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07695367-e0cb-4d9e-babb-ff6df03c7de7")
 	)
 	(label "SD"
 		(at 73.66 62.23 0)
@@ -1856,6 +2230,26 @@
 			(justify left bottom)
 		)
 		(uuid "68d6cde1-f46f-4819-afc8-fc0735bc1b8b")
+	)
+	(label "Hin"
+		(at 73.66 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95f1ff4d-1257-481a-8f05-59cfb1421a86")
+	)
+	(label "Lin"
+		(at 73.66 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "999e7532-200d-46be-b1c5-c4804e3a11dd")
 	)
 	(label "Lin"
 		(at 73.66 59.69 0)
@@ -1940,6 +2334,93 @@
 			(project "BLDC DRIVER 10 aprel 2026"
 				(path "/81e0b390-7182-47db-a580-078b941e8378"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF540N")
+		(at 134.62 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "123a0d5d-95a7-4bca-900b-81c5018fce2b")
+		(property "Reference" "Q3"
+			(at 140.208 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF540N"
+			(at 126.492 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 139.7 127.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+			(at 139.7 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+			(at 134.62 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "12110c14-92cb-4832-a687-c069e1437f2b")
+		)
+		(pin "1"
+			(uuid "942aa337-4c44-4458-8867-29beb392e489")
+		)
+		(pin "3"
+			(uuid "ad38b453-105a-409e-add9-35b5d9567b73")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -2150,6 +2631,528 @@
 	)
 	(symbol
 		(lib_id "Device:D")
+		(at 144.78 160.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "305b9dfd-9372-49d0-8b29-690f64e7f062")
+		(property "Reference" "D4"
+			(at 147.32 158.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 147.32 161.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81eb7996-e55f-4795-89b9-d84596d1f434")
+		)
+		(pin "2"
+			(uuid "be8f9e04-feb2-429c-9e5f-93c6d5368489")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 137.16 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30d639a4-034c-4166-8eec-85ec6d085182")
+		(property "Reference" "#PWR05"
+			(at 137.16 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 137.16 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 137.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62c50ca5-249b-4841-bbce-9920805eae4a")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 125.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32cd7bf6-9dcc-4f56-a2c9-e42c12195ccf")
+		(property "Reference" "D3"
+			(at 147.32 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 147.32 126.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9973101-7847-4065-80f9-6d3c349a9633")
+		)
+		(pin "2"
+			(uuid "1b0e54ff-42ad-4449-97b8-c2f97ceaae28")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37cac73b-d5dd-4e16-9bfd-e7a4d37f93f4")
+		(property "Reference" "R5"
+			(at 120.65 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10R"
+			(at 120.396 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 127.508 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c920981-3634-4cd0-b518-f07e6d6e57ed")
+		)
+		(pin "1"
+			(uuid "c2a8bff1-5983-42e3-8bb3-7e65e838e868")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 171.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d552633-7f5c-4820-93fe-3b645cf6c0fd")
+		(property "Reference" "R8"
+			(at 129.54 169.164 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 129.794 173.736 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 173.228 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6ff601f7-070c-4565-8338-90d4484c1f1b")
+		)
+		(pin "1"
+			(uuid "c8f07629-8ffe-40e8-ba3a-60960a3fa61e")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e6a40cf-240f-4fff-9df7-d75424336e2b")
+		(property "Reference" "#PWR06"
+			(at 137.16 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bb82332-c73c-4ec5-948a-aac30bee34d7")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
 		(at 144.78 40.64 270)
 		(unit 1)
 		(body_style 1)
@@ -2247,6 +3250,210 @@
 			(project "BLDC DRIVER 10 aprel 2026"
 				(path "/81e0b390-7182-47db-a580-078b941e8378"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "94f16c8f-bb06-4cab-9964-8ef4b89973d4")
+		(property "Reference" "R7"
+			(at 129.54 134.874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 129.794 139.446 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 138.938 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "801f4cec-f25e-42c0-9b14-673ca0082b14")
+		)
+		(pin "1"
+			(uuid "6df69f8b-29d9-4b24-9cbf-6b9cc8029081")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:IR2110S")
+		(at 96.52 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9516f492-491c-40ef-b317-cf9c47544da8")
+		(property "Reference" "U2"
+			(at 98.6633 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR2110S"
+			(at 98.6633 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 96.52 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e"
+			(at 96.52 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High and Low Side Driver, 500V, 2.0/2.0A, SOIC-16W"
+			(at 96.52 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "3a668d1b-436d-43e2-b5db-ac68fe2a959b")
+		)
+		(pin "3"
+			(uuid "9b492cbd-8759-48ed-9e0d-6bc988c26a31")
+		)
+		(pin "14"
+			(uuid "ec7a95bc-70da-4338-9164-585216e241fe")
+		)
+		(pin "5"
+			(uuid "a5cfdb34-d9dc-43d5-8d8b-ef0e1cc5f55d")
+		)
+		(pin "1"
+			(uuid "8ec6d5fd-fa27-47da-a789-26de40f9a4fc")
+		)
+		(pin "7"
+			(uuid "0808c493-feaa-48a1-a3ef-5ae9bd208694")
+		)
+		(pin "2"
+			(uuid "b51afdc2-dd84-43bf-be3d-94372352b3c4")
+		)
+		(pin "4"
+			(uuid "75d5592f-44a9-407b-b2e5-040e3beb72d3")
+		)
+		(pin "9"
+			(uuid "9fecf101-c118-40e8-8819-d936a18f5fe2")
+		)
+		(pin "10"
+			(uuid "285b61e8-3c86-45d1-b580-2caf73ed472a")
+		)
+		(pin "11"
+			(uuid "2ef7000e-3d6c-4f6c-b1d8-59a055dc3d59")
+		)
+		(pin "12"
+			(uuid "aa6e73bc-2080-4439-9a9d-8a2b57389535")
+		)
+		(pin "8"
+			(uuid "261930ce-8970-41ca-863a-0b9f7fe9a87e")
+		)
+		(pin "13"
+			(uuid "2445704d-4570-4aba-a259-08c2063d1c45")
+		)
+		(pin "15"
+			(uuid "4ba8c1b6-43eb-4d9e-85e9-5be0a924d4be")
+		)
+		(pin "16"
+			(uuid "56bfba0f-2aac-465f-9217-19c327480319")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2486,6 +3693,84 @@
 			(project "BLDC DRIVER 10 aprel 2026"
 				(path "/81e0b390-7182-47db-a580-078b941e8378"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 96.52 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a09512dc-89df-46f3-bdd0-503672e77a7f")
+		(property "Reference" "#PWR04"
+			(at 96.52 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 96.52 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 96.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60439b26-509d-4820-922a-64d53bf3f9d9")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3001,6 +4286,254 @@
 			(project "BLDC DRIVER 10 aprel 2026"
 				(path "/81e0b390-7182-47db-a580-078b941e8378"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 85.09 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8d9f157-94b1-4a7e-ae43-cd0dbd25e1b1")
+		(property "Reference" "C2"
+			(at 88.9 162.9409 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 88.9 165.4809 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.0552 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 85.09 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8ceb6d31-7c06-40fa-97aa-6f068931148b")
+		)
+		(pin "1"
+			(uuid "334b336e-b935-49ed-a2d8-4e04be83d623")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF540N")
+		(at 134.62 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efbc51b7-6da6-4098-b7fe-9136362ca50e")
+		(property "Reference" "Q4"
+			(at 139.954 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF540N"
+			(at 126.238 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 139.7 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+			(at 139.7 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+			(at 134.62 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f491507f-1e8c-4867-8d1f-fe1a1d993c11")
+		)
+		(pin "1"
+			(uuid "d641f3ce-1b64-4141-907c-cf24e1123641")
+		)
+		(pin "3"
+			(uuid "f817a79d-b6f6-48a9-bb87-83cea37ec513")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 160.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff60836c-94cc-4e9b-b11f-a144492fecd5")
+		(property "Reference" "R6"
+			(at 120.65 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10R"
+			(at 120.396 162.306 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 161.798 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "32c0cb39-62db-496b-b9ec-429dee298e58")
+		)
+		(pin "1"
+			(uuid "fbe6cca3-1af2-45a0-961d-e98ccfc18348")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "R6")
 					(unit 1)
 				)
 			)
