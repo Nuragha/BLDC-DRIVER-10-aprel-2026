@@ -5583,6 +5583,238 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 306.07 77.47 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83ab8b11-74aa-41ca-9266-363285c78683")
+		(property "Reference" "U3"
+			(at 306.07 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM324"
+			(at 306.07 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 307.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 306.07 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "bc17dbe1-73ce-4694-9232-bca3884db086")
+		)
+		(pin "1"
+			(uuid "5c555977-5a3e-470c-b7e2-f7e1baa81ce1")
+		)
+		(pin "7"
+			(uuid "50f133e4-ebe7-4ce6-9724-1ab2736357eb")
+		)
+		(pin "10"
+			(uuid "8bf3ec57-46a6-4bcb-a11c-53995585c06c")
+		)
+		(pin "13"
+			(uuid "2f1fdd1b-5abf-4eb3-8e85-58fb975befbb")
+		)
+		(pin "9"
+			(uuid "df05c3ce-5fa2-4d63-bc43-7827ac148bf7")
+		)
+		(pin "11"
+			(uuid "c3c3707d-eb06-4f57-a029-0170da7ee557")
+		)
+		(pin "8"
+			(uuid "e407020b-57b8-465b-a357-04de28d1831b")
+		)
+		(pin "12"
+			(uuid "3046ba04-8d74-4cd0-ac79-0e9f5cdb177a")
+		)
+		(pin "2"
+			(uuid "0a8753da-bf4b-4fbf-8721-c27e1b474c02")
+		)
+		(pin "14"
+			(uuid "e0074e7f-a339-4d63-b48a-ef87e1ca9969")
+		)
+		(pin "5"
+			(uuid "6bdfd416-6ad1-4b37-bc90-31ad9648eab3")
+		)
+		(pin "6"
+			(uuid "16737833-8850-4b56-a829-75ae1bebc0da")
+		)
+		(pin "3"
+			(uuid "b4153a5f-5402-4837-9e11-951331661f70")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 300.99 69.85 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87823570-441a-4eaf-a811-39f85225f0fd")
+		(property "Reference" "U3"
+			(at 300.99 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM324"
+			(at 300.99 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 302.26 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 300.99 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "bc17dbe1-73ce-4694-9232-bca3884db086")
+		)
+		(pin "1"
+			(uuid "5c555977-5a3e-470c-b7e2-f7e1baa81ce1")
+		)
+		(pin "7"
+			(uuid "50f133e4-ebe7-4ce6-9724-1ab2736357eb")
+		)
+		(pin "10"
+			(uuid "8bf3ec57-46a6-4bcb-a11c-53995585c06c")
+		)
+		(pin "13"
+			(uuid "2f1fdd1b-5abf-4eb3-8e85-58fb975befbb")
+		)
+		(pin "9"
+			(uuid "df05c3ce-5fa2-4d63-bc43-7827ac148bf7")
+		)
+		(pin "11"
+			(uuid "c3c3707d-eb06-4f57-a029-0170da7ee557")
+		)
+		(pin "8"
+			(uuid "e407020b-57b8-465b-a357-04de28d1831b")
+		)
+		(pin "12"
+			(uuid "3046ba04-8d74-4cd0-ac79-0e9f5cdb177a")
+		)
+		(pin "2"
+			(uuid "0a8753da-bf4b-4fbf-8721-c27e1b474c02")
+		)
+		(pin "14"
+			(uuid "e0074e7f-a339-4d63-b48a-ef87e1ca9969")
+		)
+		(pin "5"
+			(uuid "6bdfd416-6ad1-4b37-bc90-31ad9648eab3")
+		)
+		(pin "6"
+			(uuid "16737833-8850-4b56-a829-75ae1bebc0da")
+		)
+		(pin "3"
+			(uuid "b4153a5f-5402-4837-9e11-951331661f70")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 415.29 118.11 0)
 		(unit 1)
@@ -6964,6 +7196,122 @@
 			(project "BLDC DRIVER 10 aprel 2026"
 				(path "/81e0b390-7182-47db-a580-078b941e8378"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 322.58 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb915976-6083-4c21-9c05-8589d6e49606")
+		(property "Reference" "U3"
+			(at 322.58 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM324"
+			(at 322.58 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.31 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 323.85 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 322.58 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "bc17dbe1-73ce-4694-9232-bca3884db086")
+		)
+		(pin "1"
+			(uuid "5c555977-5a3e-470c-b7e2-f7e1baa81ce1")
+		)
+		(pin "7"
+			(uuid "50f133e4-ebe7-4ce6-9724-1ab2736357eb")
+		)
+		(pin "10"
+			(uuid "8bf3ec57-46a6-4bcb-a11c-53995585c06c")
+		)
+		(pin "13"
+			(uuid "2f1fdd1b-5abf-4eb3-8e85-58fb975befbb")
+		)
+		(pin "9"
+			(uuid "df05c3ce-5fa2-4d63-bc43-7827ac148bf7")
+		)
+		(pin "11"
+			(uuid "c3c3707d-eb06-4f57-a029-0170da7ee557")
+		)
+		(pin "8"
+			(uuid "e407020b-57b8-465b-a357-04de28d1831b")
+		)
+		(pin "12"
+			(uuid "3046ba04-8d74-4cd0-ac79-0e9f5cdb177a")
+		)
+		(pin "2"
+			(uuid "0a8753da-bf4b-4fbf-8721-c27e1b474c02")
+		)
+		(pin "14"
+			(uuid "e0074e7f-a339-4d63-b48a-ef87e1ca9969")
+		)
+		(pin "5"
+			(uuid "6bdfd416-6ad1-4b37-bc90-31ad9648eab3")
+		)
+		(pin "6"
+			(uuid "16737833-8850-4b56-a829-75ae1bebc0da")
+		)
+		(pin "3"
+			(uuid "b4153a5f-5402-4837-9e11-951331661f70")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "U3")
 					(unit 1)
 				)
 			)
