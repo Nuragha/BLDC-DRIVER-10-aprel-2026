@@ -598,12 +598,276 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONVERT TO PCB",
+          "name": "CONVERT TO PCB",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONVERTTOPCB",
+          "name": "CONVERTTOPCB",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT - OUTPUT HIGH(IOH)",
+          "name": "CURRENT - OUTPUT HIGH(IOH)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT - OUTPUT LOW(IOL)",
+          "name": "CURRENT - OUTPUT LOW(IOL)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE",
+          "name": "DEVICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FEATURES",
+          "name": "FEATURES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FOOTPRINTNAME",
+          "name": "FOOTPRINTNAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GROUP ID",
+          "name": "GROUP ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INPUT LOGIC LEVEL - HIGH",
+          "name": "INPUT LOGIC LEVEL - HIGH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INPUT LOGIC LEVEL -LOW",
+          "name": "INPUT LOGIC LEVEL -LOW",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INPUT TYPE",
+          "name": "INPUT TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB PART CLASS",
+          "name": "JLCPCB PART CLASS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC PART NAME",
+          "name": "LCSC PART NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURERPART",
+          "name": "MANUFACTURERPART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MODELID",
+          "name": "MODELID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MODELNAME",
+          "name": "MODELNAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MODELTRANSFORM",
+          "name": "MODELTRANSFORM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF CIRCUITS",
+          "name": "NUMBER OF CIRCUITS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF TURNS",
+          "name": "NUMBER OF TURNS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPERATING TEMPERATURE",
+          "name": "OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OUTPUT LOGIC LEVEL - HIGH",
+          "name": "OUTPUT LOGIC LEVEL - HIGH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OUTPUT LOGIC LEVEL - LOW",
+          "name": "OUTPUT LOGIC LEVEL - LOW",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER(WATTS)",
+          "name": "POWER(WATTS)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROPAGATION DELAY",
+          "name": "PROPAGATION DELAY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "QUIESCENT CURRENT(IQ)",
+          "name": "QUIESCENT CURRENT(IQ)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "REUSE BLOCK",
+          "name": "REUSE BLOCK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SERIES",
+          "name": "SERIES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ADDINBOM",
+          "name": "ADDINBOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "3D MODEL TRANSFORM",
+          "name": "3D MODEL TRANSFORM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER FOOTPRINT",
+          "name": "SUPPLIER FOOTPRINT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIERPART",
+          "name": "SUPPLIERPART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SYMBOL",
+          "name": "SYMBOL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE COEFFICIENT",
+          "name": "TEMPERATURE COEFFICIENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE",
+          "name": "TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE - SUPPLY",
+          "name": "VOLTAGE - SUPPLY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "3D MODEL",
+          "name": "3D MODEL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CHANNEL ID",
+          "name": "CHANNEL ID",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -636,6 +900,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -648,7 +920,7 @@
         "uuid": "81e0b390-7182-47db-a580-078b941e8378"
       }
     ],
-    "used_designators": "U1-4,Q1-6,D1-26,#PWR1-30,R1-37,C1-12",
+    "used_designators": "U1-8,Q1-8,#PWR1-44,D1-26,J1,R1-44,C1-18",
     "variants": []
   },
   "sheets": [
