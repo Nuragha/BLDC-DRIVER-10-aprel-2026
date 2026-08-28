@@ -920,7 +920,7 @@
         "uuid": "81e0b390-7182-47db-a580-078b941e8378"
       }
     ],
-    "used_designators": "U1-8,Q1-8,#PWR1-44,D1-26,J1,R1-44,C1-18",
+    "used_designators": "U1-8,Q1-10,#PWR1-66,D1-26,J1-3,R1-57,C1-27,F1,RV1,L1",
     "variants": []
   },
   "sheets": [
