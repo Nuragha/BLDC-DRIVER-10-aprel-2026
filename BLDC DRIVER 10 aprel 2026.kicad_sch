@@ -5031,6 +5031,359 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:BSC028N06LS3"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSC028N06LS3"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC028N06LS3-DS-v02_02-en.pdf?fileId=db3a30431ddc9372011ebafa4c607f8c"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "100A Id, 60V Vds, OptiMOS N-Channel Power MOSFET, 2.8mOhm Ron, Qg (typ) 31.0nC, PG-TDSON-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "OptiMOS Power MOSFET N-MOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TDSON*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BSC028N06LS3_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BSC028N06LS3_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:IRF4905"
 			(pin_names
 				(hide yes)
@@ -5345,320 +5698,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:IRF540N"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRF540N"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "HEXFET N-Channel MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "IRF540N_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "IRF540N_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+24V"
 			(power global)
 			(pin_numbers
@@ -5915,8 +5954,32 @@
 		)
 	)
 	(rectangle
-		(start -205.74 -83.82)
-		(end -94.615 -26.67)
+		(start -169.545 -57.785)
+		(end -158.115 -48.895)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0d7d3df0-925e-4f06-8573-9b2c1474518e")
+	)
+	(rectangle
+		(start -135.255 -60.96)
+		(end -132.08 -52.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1253f137-e949-4176-a4a1-8bffd91b9359")
+	)
+	(rectangle
+		(start -180.34 -83.82)
+		(end -120.65 -22.86)
 		(radius 0.254)
 		(stroke
 			(width 0.254)
@@ -5926,6 +5989,66 @@
 			(type none)
 		)
 		(uuid "2343998f-4e62-4502-854c-d7749d101f77")
+	)
+	(circle
+		(center -172.085 -77.47)
+		(radius 4.9595)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4206540c-c8fa-4a18-ae14-bae243c8776c")
+	)
+	(rectangle
+		(start -130.175 -60.325)
+		(end -127 -51.435)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "46a7ea10-3af2-4767-ae90-b06a575929e8")
+	)
+	(rectangle
+		(start -149.86 -43.18)
+		(end -142.875 -38.735)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "55da0732-9e9b-4988-bf1b-82b44014d745")
+	)
+	(rectangle
+		(start -150.495 -63.5)
+		(end -143.51 -59.055)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5b04c1c1-a6dd-4122-b23f-cc6d473569f7")
+	)
+	(rectangle
+		(start -169.545 -32.385)
+		(end -149.86 -27.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "654c48a3-66c8-44da-bc23-35d9b54091a5")
 	)
 	(rectangle
 		(start 25.4 158.115)
@@ -5951,6 +6074,18 @@
 		)
 		(uuid "74884f45-63f5-4b2a-aebd-c4bfdd57b81f")
 	)
+	(circle
+		(center -157.48 -77.47)
+		(radius 4.9595)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "76740e86-f3f9-4b00-a166-d10d4a6e027e")
+	)
 	(rectangle
 		(start 202.565 179.07)
 		(end 366.395 375.92)
@@ -5974,6 +6109,18 @@
 			(type none)
 		)
 		(uuid "7f935878-f034-4dc4-ae9e-7aaf9c7c4bcf")
+	)
+	(rectangle
+		(start -130.175 -69.85)
+		(end -127 -60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7fa2ed2a-5357-4dea-a35b-7ef4701e87b1")
 	)
 	(rectangle
 		(start 514.35 26.67)
@@ -6013,6 +6160,30 @@
 		(uuid "a1b2566b-49b9-4bc1-b1fe-4e55ac855df4")
 	)
 	(rectangle
+		(start -149.86 -52.705)
+		(end -142.875 -48.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b57664fe-dbb1-47db-a327-9d37efdd20b6")
+	)
+	(rectangle
+		(start -130.175 -51.435)
+		(end -127 -42.545)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c30b6299-c7ca-4917-a321-0d15ad3fcd99")
+	)
+	(rectangle
 		(start 109.855 179.07)
 		(end 193.675 275.59)
 		(stroke
@@ -6050,6 +6221,30 @@
 		(uuid "de9f13f9-31ec-4a16-bd9b-a6f53f8068c7")
 	)
 	(rectangle
+		(start -135.255 -69.85)
+		(end -132.08 -60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e10a0eec-0740-4202-975d-5bedde239bf6")
+	)
+	(circle
+		(center -143.51 -77.47)
+		(radius 4.9595)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e265087f-aec6-49f2-b023-4ffae8ea2831")
+	)
+	(rectangle
 		(start -329.565 161.925)
 		(end -290.195 282.575)
 		(stroke
@@ -6060,6 +6255,18 @@
 			(type none)
 		)
 		(uuid "e2bd7af1-3471-4a6d-857d-b00dff12dd34")
+	)
+	(rectangle
+		(start -135.255 -51.435)
+		(end -132.08 -42.545)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f08065ac-a071-4058-ada4-5015b03eb89a")
 	)
 	(rectangle
 		(start 379.73 179.705)
@@ -7024,7 +7231,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.695 331.47) (xy 231.775 331.47)
+			(xy 218.44 328.93) (xy 223.52 328.93)
 		)
 		(stroke
 			(width 0)
@@ -7356,7 +7563,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 359.41) (xy 214.63 356.87)
+			(xy 213.995 359.41) (xy 213.995 356.87)
 		)
 		(stroke
 			(width 0)
@@ -7427,7 +7634,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 334.645) (xy 219.71 339.09)
+			(xy 215.265 335.915) (xy 215.265 339.09)
 		)
 		(stroke
 			(width 0)
@@ -7757,7 +7964,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 339.09) (xy 223.52 339.09)
+			(xy 215.265 339.09) (xy 223.52 339.09)
 		)
 		(stroke
 			(width 0)
@@ -8258,16 +8465,6 @@
 	)
 	(wire
 		(pts
-			(xy 679.45 217.17) (xy 679.45 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36e0e8e8-20ae-4ae8-842d-0bfffa0e3587")
-	)
-	(wire
-		(pts
 			(xy 679.45 76.2) (xy 679.45 81.28)
 		)
 		(stroke
@@ -8376,6 +8573,16 @@
 			(type default)
 		)
 		(uuid "3b9b047e-1c01-4aa7-8689-09262c4bc585")
+	)
+	(wire
+		(pts
+			(xy 679.45 217.17) (xy 679.45 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba40f06-81e9-4c13-93b0-8a380065f00a")
 	)
 	(wire
 		(pts
@@ -8719,7 +8926,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 359.41) (xy 214.63 359.41)
+			(xy 223.52 359.41) (xy 213.995 359.41)
 		)
 		(stroke
 			(width 0)
@@ -8736,16 +8943,6 @@
 			(type default)
 		)
 		(uuid "48c3b9c0-07ba-410b-a655-7813819890c9")
-	)
-	(wire
-		(pts
-			(xy 680.72 382.27) (xy 680.72 387.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48ff4be6-9bce-469e-b544-3981f0ece0b8")
 	)
 	(wire
 		(pts
@@ -9452,16 +9649,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 334.645) (xy 219.075 334.645)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "712f4945-7672-4e14-af30-b1cf1bc193dd")
-	)
-	(wire
-		(pts
 			(xy 646.43 52.07) (xy 646.43 50.8)
 		)
 		(stroke
@@ -9472,7 +9659,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 343.535) (xy 217.17 349.25)
+			(xy 214.63 346.075) (xy 214.63 349.25)
 		)
 		(stroke
 			(width 0)
@@ -9885,7 +10072,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 331.47) (xy 240.665 331.47)
+			(xy 231.14 328.93) (xy 240.665 328.93)
 		)
 		(stroke
 			(width 0)
@@ -10347,7 +10534,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 349.25) (xy 217.17 349.25)
+			(xy 223.52 349.25) (xy 214.63 349.25)
 		)
 		(stroke
 			(width 0)
@@ -10890,6 +11077,16 @@
 	)
 	(wire
 		(pts
+			(xy 680.72 382.27) (xy 680.72 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba734a7a-b67c-485f-bd5c-785b07d0ae4c")
+	)
+	(wire
+		(pts
 			(xy 334.645 35.56) (xy 331.47 35.56)
 		)
 		(stroke
@@ -11302,7 +11499,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.665 331.47) (xy 240.665 336.55)
+			(xy 240.665 328.93) (xy 240.665 336.55)
 		)
 		(stroke
 			(width 0)
@@ -11473,7 +11670,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.695 327.66) (xy 226.695 331.47)
+			(xy 218.44 325.12) (xy 218.44 328.93)
 		)
 		(stroke
 			(width 0)
@@ -12374,7 +12571,7 @@
 		(uuid "7618bbd5-3d54-4c4e-86d2-f78fb7b90388")
 	)
 	(label "SWCLK"
-		(at 219.075 334.645 180)
+		(at 215.265 335.915 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12437,7 +12634,7 @@
 		(uuid "88b095e6-562b-4cb9-a21f-64a5cfe63b1f")
 	)
 	(label "SWDIO"
-		(at 217.17 343.535 180)
+		(at 214.63 346.075 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12698,7 +12895,7 @@
 		(uuid "ee6ed918-121c-4bf8-9d81-9c370de29d68")
 	)
 	(label "NRST"
-		(at 214.63 356.87 180)
+		(at 213.995 356.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15155,93 +15352,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF540N")
-		(at 676.91 257.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2492ed79-ed77-4f29-be64-7919677c0c10")
-		(property "Reference" "Q4"
-			(at 682.244 257.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF540N"
-			(at 668.528 254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 681.99 259.715 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 681.99 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 676.91 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "426240a5-5e78-4b23-af9f-553a66051782")
-		)
-		(pin "1"
-			(uuid "6ee072aa-75c8-4b61-8cf6-436b4636a635")
-		)
-		(pin "3"
-			(uuid "d70ca607-d640-4982-a670-2fdef6a9017d")
-		)
-		(instances
-			(project "BLDC DRIVER 10 aprel 2026"
-				(path "/81e0b390-7182-47db-a580-078b941e8378"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 407.035 308.61 0)
 		(unit 1)
@@ -16071,7 +16181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_16x17.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
 			(at 713.74 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -17413,6 +17523,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSC028N06LS3")
+		(at 678.18 411.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4367c096-c11c-4f05-8f45-bd72112901bc")
+		(property "Reference" "LQC1"
+			(at 684.53 410.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC028N06LS3"
+			(at 684.53 412.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 683.26 413.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC028N06LS3-DS-v02_02-en.pdf?fileId=db3a30431ddc9372011ebafa4c607f8c"
+			(at 683.26 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "100A Id, 60V Vds, OptiMOS N-Channel Power MOSFET, 2.8mOhm Ron, Qg (typ) 31.0nC, PG-TDSON-8"
+			(at 678.18 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "f9b02a88-e5db-4552-af42-e7007044dd8f")
+		)
+		(pin "1"
+			(uuid "44cc0f05-5b09-40b8-a390-033888a8d69c")
+		)
+		(pin "4"
+			(uuid "86479205-039f-423d-adec-4199a097ca04")
+		)
+		(pin "2"
+			(uuid "0a18d979-19c5-459f-a2ed-c3adbcde568a")
+		)
+		(pin "3"
+			(uuid "15538f27-775f-4d12-82cd-4ebfea0ab5d4")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "LQC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 576.58 66.04 0)
 		(unit 1)
@@ -18211,6 +18415,100 @@
 			(project "BLDC DRIVER 10 aprel 2026"
 				(path "/81e0b390-7182-47db-a580-078b941e8378"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSC028N06LS3")
+		(at 676.91 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5125839f-b155-4c4d-9d98-99b773c12b81")
+		(property "Reference" "HQA1"
+			(at 683.26 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC028N06LS3"
+			(at 683.26 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 681.99 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC028N06LS3-DS-v02_02-en.pdf?fileId=db3a30431ddc9372011ebafa4c607f8c"
+			(at 681.99 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "100A Id, 60V Vds, OptiMOS N-Channel Power MOSFET, 2.8mOhm Ron, Qg (typ) 31.0nC, PG-TDSON-8"
+			(at 676.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "274ffbc0-18e5-42e7-ae6a-881b4cc32d5d")
+		)
+		(pin "1"
+			(uuid "d0788950-8d07-4264-980e-7602f4c8750b")
+		)
+		(pin "4"
+			(uuid "231e2313-f330-40c9-a86d-3d93aecb9e49")
+		)
+		(pin "2"
+			(uuid "07a27086-2f6f-44a4-ada8-7ef218075c08")
+		)
+		(pin "3"
+			(uuid "043414d6-81a2-4d69-8d6e-ed4552267612")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "HQA1")
 					(unit 1)
 				)
 			)
@@ -19226,7 +19524,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 235.585 331.47 270)
+		(at 227.33 328.93 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19236,7 +19534,7 @@
 		(dnp no)
 		(uuid "60ffbdea-b5a8-434d-9666-074957bef7be")
 		(property "Reference" "R63"
-			(at 235.585 334.518 90)
+			(at 227.33 331.978 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19246,7 +19544,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 235.585 328.168 90)
+			(at 227.33 325.628 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19258,7 +19556,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 235.585 329.692 90)
+			(at 227.33 327.152 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19269,7 +19567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 235.585 331.47 0)
+			(at 227.33 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19280,7 +19578,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 235.585 331.47 0)
+			(at 227.33 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19300,93 +19598,6 @@
 			(project "BLDC DRIVER 10 aprel 2026"
 				(path "/81e0b390-7182-47db-a580-078b941e8378"
 					(reference "R63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRF540N")
-		(at 678.18 411.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "61f86b28-42c0-4b8a-94fe-060412e1c897")
-		(property "Reference" "Q6"
-			(at 683.514 411.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF540N"
-			(at 669.798 407.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 683.26 413.385 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 683.26 415.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 678.18 411.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8bb08230-d5f4-46e0-a6d4-c49e85f24cd2")
-		)
-		(pin "1"
-			(uuid "84f4bdb6-5da0-47f1-8f2e-2b76f34719f4")
-		)
-		(pin "3"
-			(uuid "1ed553ce-424d-4002-b84b-3dd2fe05c018")
-		)
-		(instances
-			(project "BLDC DRIVER 10 aprel 2026"
-				(path "/81e0b390-7182-47db-a580-078b941e8378"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -19672,6 +19883,100 @@
 			(project "BLDC DRIVER 10 aprel 2026"
 				(path "/81e0b390-7182-47db-a580-078b941e8378"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSC028N06LS3")
+		(at 676.91 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67569888-748c-45c8-a6b1-32a9f4b55b19")
+		(property "Reference" "LQA1"
+			(at 683.26 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC028N06LS3"
+			(at 683.26 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 681.99 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC028N06LS3-DS-v02_02-en.pdf?fileId=db3a30431ddc9372011ebafa4c607f8c"
+			(at 681.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "100A Id, 60V Vds, OptiMOS N-Channel Power MOSFET, 2.8mOhm Ron, Qg (typ) 31.0nC, PG-TDSON-8"
+			(at 676.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "3debcf2e-cd1e-4c02-8f6f-1658ee28ba1d")
+		)
+		(pin "1"
+			(uuid "35c60020-55fc-4544-b34f-77e740ab6041")
+		)
+		(pin "4"
+			(uuid "b93a83df-2f33-4d79-9db3-14b77a20e456")
+		)
+		(pin "2"
+			(uuid "4150bbf3-2c55-40de-b85b-c27d5b258d6a")
+		)
+		(pin "3"
+			(uuid "f8db90bd-87b5-429f-abcf-f1c3e1d29172")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "LQA1")
 					(unit 1)
 				)
 			)
@@ -20739,93 +21044,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF540N")
-		(at 676.91 223.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7a226bf7-dfb2-4ece-880a-c0af1b60b24f")
-		(property "Reference" "Q3"
-			(at 682.498 223.266 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF540N"
-			(at 668.782 219.202 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 681.99 225.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 681.99 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 676.91 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a8ef727b-9b1a-4720-ac78-a6020fb004c9")
-		)
-		(pin "1"
-			(uuid "e93ed6c4-23f7-448b-8843-65f42dfb39ec")
-		)
-		(pin "3"
-			(uuid "35d44961-2fb7-4330-a3db-cb22c554b316")
-		)
-		(instances
-			(project "BLDC DRIVER 10 aprel 2026"
-				(path "/81e0b390-7182-47db-a580-078b941e8378"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 159.385 252.73 0)
 		(mirror y)
@@ -21070,6 +21288,100 @@
 			(project "BLDC DRIVER 10 aprel 2026"
 				(path "/81e0b390-7182-47db-a580-078b941e8378"
 					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSC028N06LS3")
+		(at 676.91 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7def0183-68f3-4b85-ba16-6591af13fd5f")
+		(property "Reference" "HQB1"
+			(at 683.26 222.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC028N06LS3"
+			(at 683.26 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 681.99 225.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC028N06LS3-DS-v02_02-en.pdf?fileId=db3a30431ddc9372011ebafa4c607f8c"
+			(at 681.99 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "100A Id, 60V Vds, OptiMOS N-Channel Power MOSFET, 2.8mOhm Ron, Qg (typ) 31.0nC, PG-TDSON-8"
+			(at 676.91 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "1aaae27f-ae9e-484e-a9a7-ccc358e1947e")
+		)
+		(pin "1"
+			(uuid "d9e941c1-2e02-4ca9-ace7-b99aa03b1925")
+		)
+		(pin "4"
+			(uuid "dfbb0701-ff10-4182-9a26-c3bc532f04cb")
+		)
+		(pin "2"
+			(uuid "517a4803-4734-4146-b846-b1a220a6b89a")
+		)
+		(pin "3"
+			(uuid "b61a596a-d9b9-4d18-81f8-9e7057d0ae8c")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "HQB1")
 					(unit 1)
 				)
 			)
@@ -21919,7 +22231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_16x17.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
 			(at 715.01 384.81 0)
 			(hide yes)
 			(show_name no)
@@ -22398,7 +22710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_16x17.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
 			(at 713.74 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -23007,7 +23319,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 226.695 327.66 0)
+		(at 218.44 325.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23017,7 +23329,7 @@
 		(dnp no)
 		(uuid "9b18942c-56f2-41d5-9605-2cbba0199522")
 		(property "Reference" "#PWR077"
-			(at 226.695 331.47 0)
+			(at 218.44 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23028,7 +23340,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 224.917 323.596 0)
+			(at 216.662 321.056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23039,7 +23351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.695 327.66 0)
+			(at 218.44 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23050,7 +23362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.695 327.66 0)
+			(at 218.44 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23061,7 +23373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 226.695 327.66 0)
+			(at 218.44 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23959,93 +24271,6 @@
 			(project "BLDC DRIVER 10 aprel 2026"
 				(path "/81e0b390-7182-47db-a580-078b941e8378"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRF540N")
-		(at 676.91 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a6802738-c16a-4b05-bcff-b3a70694a841")
-		(property "Reference" "Q2"
-			(at 682.244 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF540N"
-			(at 668.528 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 681.99 107.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 681.99 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 676.91 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d86a7fae-dc75-4e1e-82b5-af2db468c8be")
-		)
-		(pin "1"
-			(uuid "1c64beb3-e5bc-4ffe-ab4b-773b5db3953d")
-		)
-		(pin "3"
-			(uuid "cb417128-8d34-494e-bcdc-e310af1c5085")
-		)
-		(instances
-			(project "BLDC DRIVER 10 aprel 2026"
-				(path "/81e0b390-7182-47db-a580-078b941e8378"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -25186,93 +25411,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF540N")
-		(at 676.91 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b82fd20e-21b8-4f87-b1f1-6b5304c94bdc")
-		(property "Reference" "Q1"
-			(at 682.498 70.866 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF540N"
-			(at 668.782 66.802 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 681.99 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 681.99 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 676.91 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fb5114ad-b7a8-4585-9a8d-4d8ef1f044ab")
-		)
-		(pin "1"
-			(uuid "00f25deb-9973-4cc1-ba22-9923e1343b78")
-		)
-		(pin "3"
-			(uuid "c5834c30-845b-44f8-a2c3-6001142f744d")
-		)
-		(instances
-			(project "BLDC DRIVER 10 aprel 2026"
-				(path "/81e0b390-7182-47db-a580-078b941e8378"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 442.595 57.785 0)
 		(unit 1)
@@ -25590,6 +25728,100 @@
 			(project "BLDC DRIVER 10 aprel 2026"
 				(path "/81e0b390-7182-47db-a580-078b941e8378"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSC028N06LS3")
+		(at 676.91 257.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b994368f-9724-4d67-8fb0-728476c5cc6c")
+		(property "Reference" "LQB1"
+			(at 683.26 256.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC028N06LS3"
+			(at 683.26 259.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 681.99 259.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC028N06LS3-DS-v02_02-en.pdf?fileId=db3a30431ddc9372011ebafa4c607f8c"
+			(at 681.99 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "100A Id, 60V Vds, OptiMOS N-Channel Power MOSFET, 2.8mOhm Ron, Qg (typ) 31.0nC, PG-TDSON-8"
+			(at 676.91 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "fabdcff7-6820-4067-bfb8-2f9f47f2cfa4")
+		)
+		(pin "1"
+			(uuid "70989779-9b23-47a5-8968-810cfc79e9a0")
+		)
+		(pin "4"
+			(uuid "5286eea3-2be3-44cc-90af-695eeadf4c2f")
+		)
+		(pin "2"
+			(uuid "1cfab9a8-8aea-4dc1-88e4-d01669ae583a")
+		)
+		(pin "3"
+			(uuid "43fe843b-5de3-431f-806d-7ad59acc9db1")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "LQB1")
 					(unit 1)
 				)
 			)
@@ -27000,93 +27232,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF540N")
-		(at 678.18 377.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cbb8b2d8-3716-46a7-abad-a96ca920fe58")
-		(property "Reference" "Q5"
-			(at 683.768 376.936 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF540N"
-			(at 670.052 372.872 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 683.26 379.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 683.26 381 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 678.18 377.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "31112cce-4c96-4bfa-84f4-4f97cae34c4f")
-		)
-		(pin "1"
-			(uuid "6747303e-0aa7-432e-87dc-58a41df3f0e3")
-		)
-		(pin "3"
-			(uuid "21e68c28-462a-452f-bcab-26099863487a")
-		)
-		(instances
-			(project "BLDC DRIVER 10 aprel 2026"
-				(path "/81e0b390-7182-47db-a580-078b941e8378"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 692.15 69.85 180)
 		(unit 1)
@@ -27162,6 +27307,100 @@
 			(project "BLDC DRIVER 10 aprel 2026"
 				(path "/81e0b390-7182-47db-a580-078b941e8378"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSC028N06LS3")
+		(at 678.18 377.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cee832bb-4c39-4c5e-bc89-ab49b579d0ee")
+		(property "Reference" "HQC1"
+			(at 684.53 375.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC028N06LS3"
+			(at 684.53 378.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 683.26 379.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC028N06LS3-DS-v02_02-en.pdf?fileId=db3a30431ddc9372011ebafa4c607f8c"
+			(at 683.26 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "100A Id, 60V Vds, OptiMOS N-Channel Power MOSFET, 2.8mOhm Ron, Qg (typ) 31.0nC, PG-TDSON-8"
+			(at 678.18 377.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "4935d3f3-3bc0-4b5a-aaf4-3460c7e391c7")
+		)
+		(pin "1"
+			(uuid "5ab77a8c-6d4b-4235-b0e5-e08f8f550eae")
+		)
+		(pin "4"
+			(uuid "164f1905-e836-461d-9e85-9901a05e3940")
+		)
+		(pin "2"
+			(uuid "00e27606-fdb6-4006-88ee-d39c9a7bdc14")
+		)
+		(pin "3"
+			(uuid "f9d40749-9c9e-49c5-8ad5-d6b893eff1b2")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "HQC1")
 					(unit 1)
 				)
 			)
@@ -31453,7 +31692,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQP2_MiddlePushTravel_H2.5mm"
 			(at 217.805 220.345 0)
 			(hide yes)
 			(show_name no)
