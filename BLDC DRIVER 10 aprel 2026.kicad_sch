@@ -5965,6 +5965,18 @@
 		)
 		(uuid "0d7d3df0-925e-4f06-8573-9b2c1474518e")
 	)
+	(circle
+		(center -583.565 104.775)
+		(radius 45.6229)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0d91eecc-bc64-4ccf-98c6-20deb63bc643")
+	)
 	(rectangle
 		(start -135.255 -60.96)
 		(end -132.08 -52.07)
@@ -5989,6 +6001,18 @@
 			(type none)
 		)
 		(uuid "2343998f-4e62-4502-854c-d7749d101f77")
+	)
+	(circle
+		(center -581.025 217.805)
+		(radius 45.6229)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "327710a6-14bf-414f-8458-b4c3eadb9681")
 	)
 	(circle
 		(center -172.085 -77.47)
@@ -6037,6 +6061,18 @@
 			(type none)
 		)
 		(uuid "5b04c1c1-a6dd-4122-b23f-cc6d473569f7")
+	)
+	(circle
+		(center -587.375 330.835)
+		(radius 45.6229)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5bdb1ddf-9620-44ab-a72a-49f17aea40a1")
 	)
 	(rectangle
 		(start -169.545 -32.385)
@@ -6680,6 +6716,12 @@
 		(uuid "2d109d24-b5d1-4b08-a4ff-b4b9192f45c4")
 	)
 	(junction
+		(at 679.45 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d548112-f36f-4462-b2fe-4a946fd294a2")
+	)
+	(junction
 		(at 429.895 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7100,12 +7142,6 @@
 		(uuid "d2742eb1-1477-4cc1-b541-cfb88d758096")
 	)
 	(junction
-		(at 679.45 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d366c19f-6b39-4a64-8be7-95714af065f6")
-	)
-	(junction
 		(at 159.385 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7360,6 +7396,16 @@
 			(type default)
 		)
 		(uuid "05e2d0a2-982a-4ca0-b5a1-d0950cf88e95")
+	)
+	(polyline
+		(pts
+			(xy -659.13 71.755) (xy -659.13 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f9cb69-36cc-4dea-97e9-d24d0eabc70b")
 	)
 	(wire
 		(pts
@@ -8312,6 +8358,16 @@
 			(type default)
 		)
 		(uuid "30afa3bd-14dc-47dc-9480-cb4176774faf")
+	)
+	(polyline
+		(pts
+			(xy -509.27 27.94) (xy -577.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3157c664-17b4-4b0c-9406-c907327a274f")
 	)
 	(wire
 		(pts
@@ -9737,6 +9793,16 @@
 		)
 		(uuid "74107f57-af29-4a34-9e8f-416485bfdecf")
 	)
+	(polyline
+		(pts
+			(xy -659.13 28.575) (xy -607.695 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748df317-2f04-4c9c-a056-19539568dc07")
+	)
 	(wire
 		(pts
 			(xy 455.295 76.835) (xy 455.295 48.895)
@@ -9948,6 +10014,16 @@
 			(type default)
 		)
 		(uuid "80a4dec8-ed68-4dbf-b47b-5b3da4980a33")
+	)
+	(polyline
+		(pts
+			(xy -577.85 -5.08) (xy -577.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b75454-7bbb-4dbb-a723-89bee9d0560f")
 	)
 	(wire
 		(pts
@@ -10241,6 +10317,16 @@
 		)
 		(uuid "91b5cd03-3ef5-4c4a-8511-72e119955e80")
 	)
+	(polyline
+		(pts
+			(xy -659.13 383.54) (xy -509.27 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b8f055-bde7-41ce-8133-bf7c6fea8f97")
+	)
 	(wire
 		(pts
 			(xy 194.945 48.895) (xy 212.09 48.895)
@@ -10451,6 +10537,16 @@
 			(type default)
 		)
 		(uuid "9f4e4b03-0a6e-4b01-a295-c7b4fc790764")
+	)
+	(polyline
+		(pts
+			(xy -509.27 383.54) (xy -509.27 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f580e8e-d76d-43b6-8358-4565510312b3")
 	)
 	(wire
 		(pts
@@ -11798,6 +11894,16 @@
 		)
 		(uuid "dd9e21ac-0069-4be5-b0b3-3adc9d64b632")
 	)
+	(polyline
+		(pts
+			(xy -659.13 71.755) (xy -659.13 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4dc6d4-18d4-4335-a4ae-f49bdd4661f0")
+	)
 	(wire
 		(pts
 			(xy 361.95 48.895) (xy 368.935 48.895)
@@ -12178,6 +12284,16 @@
 		)
 		(uuid "f509002f-dda8-48db-afd0-b7a657910b14")
 	)
+	(polyline
+		(pts
+			(xy -607.695 -3.175) (xy -607.695 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52bfa27-4a07-44e6-b41c-a62c885268b6")
+	)
 	(wire
 		(pts
 			(xy 407.035 298.45) (xy 410.21 298.45)
@@ -12399,16 +12515,6 @@
 			(justify right bottom)
 		)
 		(uuid "19fd1120-85ab-4dd0-a28e-f7ea70321ea8")
-	)
-	(label "Speed control_ADC"
-		(at 309.88 231.14 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e94774f-1324-4dbe-9ecb-8b32db1de680")
 	)
 	(label "MCU_ADC_PH_B"
 		(at 665.48 287.02 180)
@@ -12798,6 +12904,16 @@
 			(justify left bottom)
 		)
 		(uuid "ca7e6263-d755-417c-9d5b-4a62a168f1b0")
+	)
+	(label "Speed ccontrol_ADC"
+		(at 309.88 231.14 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "ceb330b7-01db-4cc8-b761-70abd6c877cb")
 	)
 	(label "ADC_1"
 		(at 311.785 253.365 0)
@@ -21745,7 +21861,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSKW0612"
 			(at 682.498 443.23 90)
 			(hide yes)
 			(show_name no)
@@ -22627,7 +22743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 657.86 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -23990,7 +24106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 660.4 72.898 90)
 			(hide yes)
 			(show_name no)
@@ -24308,7 +24424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 660.4 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -24717,7 +24833,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSKW0612"
 			(at 681.228 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -25362,7 +25478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 657.86 107.188 90)
 			(hide yes)
 			(show_name no)
@@ -25605,7 +25721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 671.83 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -26445,7 +26561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 671.83 118.618 90)
 			(hide yes)
 			(show_name no)
@@ -27440,7 +27556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSKW0612"
 			(at 681.228 289.56 90)
 			(hide yes)
 			(show_name no)
