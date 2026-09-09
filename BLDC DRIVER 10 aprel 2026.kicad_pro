@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 0.0,
+          "height": 0.3,
+          "width": 0.67
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -527,24 +527,25 @@
       },
       {
         "clearance": 0.4,
-        "name": "bldc power",
+        "name": "power hight",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
         "tuning_profile": "",
-        "via_diameter": 1.0
+        "via_diameter": 1.0,
+        "via_drill": 0.6
       },
       {
-        "clearance": 0.6,
-        "name": "power",
+        "clearance": 0.2,
+        "name": "signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 4.0,
+        "track_width": 0.25,
         "tuning_profile": "",
-        "via_diameter": 1.2,
-        "via_drill": 0.6
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -554,20 +555,32 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "power",
+        "netclass": "power hight",
         "pattern": "+24V"
       },
       {
-        "netclass": "power",
+        "netclass": "power hight",
         "pattern": "PH_A"
       },
       {
-        "netclass": "power",
+        "netclass": "power hight",
         "pattern": "PH_B"
       },
       {
-        "netclass": "power",
+        "netclass": "power hight",
         "pattern": "PH_C"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "ADC_1"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "ADC_2"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "ADC_3"
       }
     ]
   },
