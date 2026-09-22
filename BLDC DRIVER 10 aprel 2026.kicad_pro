@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 6.0,
-          "width": 3.0
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -53,29 +53,23 @@
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
-          "corner_smoothing": 2,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -209,9 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -238,12 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -519,33 +506,11 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": "",
-        "via_diameter": 1.2,
-        "via_drill": 0.6,
-        "wire_width": 6
-      },
-      {
-        "clearance": 0.4,
-        "name": "power hight",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "tuning_profile": "",
-        "via_diameter": 1.0,
-        "via_drill": 0.6
-      },
-      {
-        "clearance": 0.2,
-        "name": "signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -553,36 +518,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "power hight",
-        "pattern": "+24V"
-      },
-      {
-        "netclass": "power hight",
-        "pattern": "PH_A"
-      },
-      {
-        "netclass": "power hight",
-        "pattern": "PH_B"
-      },
-      {
-        "netclass": "power hight",
-        "pattern": "PH_C"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "ADC_1"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "ADC_2"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "ADC_3"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -662,276 +598,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "CONVERT TO PCB",
-          "name": "CONVERT TO PCB",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "CONVERTTOPCB",
-          "name": "CONVERTTOPCB",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "CURRENT - OUTPUT HIGH(IOH)",
-          "name": "CURRENT - OUTPUT HIGH(IOH)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "CURRENT - OUTPUT LOW(IOL)",
-          "name": "CURRENT - OUTPUT LOW(IOL)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DEVICE",
-          "name": "DEVICE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "FEATURES",
-          "name": "FEATURES",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "FOOTPRINTNAME",
-          "name": "FOOTPRINTNAME",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "GROUP ID",
-          "name": "GROUP ID",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "INPUT LOGIC LEVEL - HIGH",
-          "name": "INPUT LOGIC LEVEL - HIGH",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "INPUT LOGIC LEVEL -LOW",
-          "name": "INPUT LOGIC LEVEL -LOW",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "INPUT TYPE",
-          "name": "INPUT TYPE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB PART CLASS",
-          "name": "JLCPCB PART CLASS",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC PART NAME",
-          "name": "LCSC PART NAME",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURERPART",
-          "name": "MANUFACTURERPART",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MODELID",
-          "name": "MODELID",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MODELNAME",
-          "name": "MODELNAME",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MODELTRANSFORM",
-          "name": "MODELTRANSFORM",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "NUMBER OF CIRCUITS",
-          "name": "NUMBER OF CIRCUITS",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "NUMBER OF TURNS",
-          "name": "NUMBER OF TURNS",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "OPERATING TEMPERATURE",
-          "name": "OPERATING TEMPERATURE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "OUTPUT LOGIC LEVEL - HIGH",
-          "name": "OUTPUT LOGIC LEVEL - HIGH",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "OUTPUT LOGIC LEVEL - LOW",
-          "name": "OUTPUT LOGIC LEVEL - LOW",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "POWER(WATTS)",
-          "name": "POWER(WATTS)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PROPAGATION DELAY",
-          "name": "PROPAGATION DELAY",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "QUIESCENT CURRENT(IQ)",
-          "name": "QUIESCENT CURRENT(IQ)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "REUSE BLOCK",
-          "name": "REUSE BLOCK",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SERIES",
-          "name": "SERIES",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "ADDINBOM",
-          "name": "ADDINBOM",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "3D MODEL TRANSFORM",
-          "name": "3D MODEL TRANSFORM",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SUPPLIER",
-          "name": "SUPPLIER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SUPPLIER FOOTPRINT",
-          "name": "SUPPLIER FOOTPRINT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SUPPLIERPART",
-          "name": "SUPPLIERPART",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SYMBOL",
-          "name": "SYMBOL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "TEMPERATURE COEFFICIENT",
-          "name": "TEMPERATURE COEFFICIENT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "TOLERANCE",
-          "name": "TOLERANCE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "VOLTAGE - SUPPLY",
-          "name": "VOLTAGE - SUPPLY",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "3D MODEL",
-          "name": "3D MODEL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "ALTIUM_VALUE",
-          "name": "ALTIUM_VALUE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "CHANNEL ID",
-          "name": "CHANNEL ID",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -964,14 +636,6 @@
     "meta": {
       "version": 1
     },
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -984,7 +648,7 @@
         "uuid": "81e0b390-7182-47db-a580-078b941e8378"
       }
     ],
-    "used_designators": "U1-8,Q1-12,ALQ1,#PWR1-86,D1-28,J1-4,R1-76,C1-42,F1,RV1,L1-2,Y1,SW1,HQA1-2,HQB1,LQB1,HQC1,LQA1-2,LQC1,AHQ1,BHQ1,BLQ1,CHQ1,CLQ1",
+    "used_designators": "U1-4,Q1-6,D1-26,#PWR1-30,R1-37,C1-12",
     "variants": []
   },
   "sheets": [
