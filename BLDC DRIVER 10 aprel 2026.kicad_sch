@@ -7136,6 +7136,12 @@
 		(uuid "cc195abe-dcfc-44d8-b061-722af3d52824")
 	)
 	(junction
+		(at 292.735 221.615)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1733c08-23c3-4edd-8c9e-f191721db44c")
+	)
+	(junction
 		(at 646.43 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7224,6 +7230,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7f7ab46-c37f-4b0f-9745-f4c392078e7c")
+	)
+	(junction
+		(at 290.195 221.615)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f921b16d-6771-4be9-a6c3-2f9d4f55cc80")
 	)
 	(junction
 		(at 313.69 48.895)
@@ -7757,6 +7769,16 @@
 			(type default)
 		)
 		(uuid "16a7eeed-3685-44e8-a22d-b04f0b55a633")
+	)
+	(wire
+		(pts
+			(xy 299.085 221.615) (xy 292.735 221.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1735a28a-60b6-4ddd-92ed-b38fa6c9e473")
 	)
 	(wire
 		(pts
@@ -8902,6 +8924,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.735 221.615) (xy 290.195 221.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437d4d72-af6e-4473-8127-57ae165a0f4a")
+	)
+	(wire
+		(pts
 			(xy 176.53 48.895) (xy 176.53 53.975)
 		)
 		(stroke
@@ -9503,6 +9535,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.785 221.615) (xy 306.705 221.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663abf03-1ab0-4e93-ab91-b07a091e9b6c")
+	)
+	(wire
+		(pts
 			(xy 305.435 258.445) (xy 323.215 258.445)
 		)
 		(stroke
@@ -9550,6 +9592,16 @@
 			(type default)
 		)
 		(uuid "67a9b426-9b4d-472f-b761-7c244031b920")
+	)
+	(wire
+		(pts
+			(xy 292.735 227.965) (xy 292.735 221.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69170c9d-ecd5-4c63-8d28-5db61db6cb38")
 	)
 	(wire
 		(pts
@@ -30171,6 +30223,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 311.785 221.615 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed52543f-f268-4a40-9764-7620e285e9eb")
+		(property "Reference" "#PWR082"
+			(at 318.135 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.96 221.6149 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.785 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.785 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 311.785 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "272ee6ac-e2ff-4ea7-93be-e615460848c7")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 222.885 200.66 0)
 		(unit 1)
@@ -31127,6 +31258,87 @@
 			(project "BLDC DRIVER 10 aprel 2026"
 				(path "/81e0b390-7182-47db-a580-078b941e8378"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 302.895 221.615 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc31056b-9ae5-49b6-8d07-0f304ef40274")
+		(property "Reference" "C41"
+			(at 302.895 226.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 302.895 218.313 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 306.705 220.6498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.895 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 302.895 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8710a0b6-a7be-4fd8-ad72-2677e746c6d9")
+		)
+		(pin "2"
+			(uuid "33775ad9-b033-4343-b78a-554de65da481")
+		)
+		(instances
+			(project "BLDC DRIVER 10 aprel 2026"
+				(path "/81e0b390-7182-47db-a580-078b941e8378"
+					(reference "C41")
 					(unit 1)
 				)
 			)
